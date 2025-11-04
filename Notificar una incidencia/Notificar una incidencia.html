@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width, initial-scalee=2.0">
+   <link rel="stylesheet" href="estilo.css">
+    <title>Notificar una incidencia</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend>Datos de la incidencia:</legend><br>
+            Usuario:<br>
+            <input type="text" name="campo_de_texto">  
+            <br><br>
+            Departamento:<br>
+            <select name="Departamento">
+            <option value="op1">Marketing</option>
+            <option value="op2">Informatica</option>
+            <option value="op3">Telecomunicaciones</option>
+            <option value="op4">RRHH</option>
+            </select>
+            <br><br>
+            Descripcion:<br>
+                <textarea name="texto">Describe la incidencia.</textarea>
+            <br><br>
+            Contraseña:<br>
+            <input type="password" name="contraseña">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Botones de reset y envío:</legend>
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
