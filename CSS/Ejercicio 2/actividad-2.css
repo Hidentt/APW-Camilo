@@ -18,14 +18,30 @@ em {
   color: blue;
 }
 
-.especial {
-  color: purple;
+#especial {
+  color: rgb(180, 1, 180);
 }
 
 caption {
   color: blue;
 }
 
-table {
+table,
+th,
+td {
   border: 2px solid black;
+  border-collapse: collapse;
 }
+
+.especial {
+  color:rgb(255, 255, 34);
+}
+
+td{
+  color: green;
+}
+
+th{
+  color: red;
+}
+
