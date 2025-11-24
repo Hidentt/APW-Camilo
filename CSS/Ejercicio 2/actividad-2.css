@@ -34,7 +34,7 @@ td {
 }
 
 .especial {
-  color:rgb(255, 255, 34);
+  color:rgb(255, 217, 0);
 }
 
 td{
@@ -45,3 +45,10 @@ th{
   color: red;
 }
 
+ee{
+  font-style: italic;
+}
+
+p{
+  color: rgb(14, 126, 14);
+}
