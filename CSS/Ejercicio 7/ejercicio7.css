@@ -1,0 +1,21 @@
+ul,ul li{margin:0;padding:0;list-style:none;}h1,h2,h3,p,form{margin:0;padding:0;}.clear{clear:both;}img{border:none;}#contenedor{width:90%;max-width:900px;width:expression(document.body.clientWidth> 901? "900px":"auto");margin:0 auto;}#cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{border:2px solid #777;}#cabecera{clear:both;}#menu{clear:both;}#lateral{float:left;width:20%;}#contenido{float:right;width:78%;}#contenido #principal{float:left;width:78%;}#contenido #secundario{float:right;width:20%;}#pie{clear:both;}#cabecera #logo{float:left;}#cabecera #buscador{float:right;}#menu ul#menu_principal li{display:inline;float:left;}#contenido #principal .articulo img{width:100px;float:left;}#pie .enlaces{float:left;}#pie .copyright{float:right;}#cabecera,#menu,#lateral,#lateral #noticias,#lateral #publicidad,#contenido,#contenido #principal,#contenido #secundario,#pie{padding:.5em;border:none;}#lateral{padding:0;}#cabecera{padding:1em;}#cabecera h1{background:url(/web/20150420163838im_/http://librosweb.es/ejercicios/css/comun/imagenes/logo.gif) no-repeat -5px -10px;}#cabecera h1 span{visibility:hidden;}#menu{margin-bottom:.5em;border-bottom:1px solid #004C99;background:url(/web/20150420163838im_/http://librosweb.es/ejercicios/css/comun/imagenes/fondo_menu.gif) repeat-x;}#contenido{width:77%;padding:0;}#contenido #principal{width:73%;}#contenido #secundario{border:1px solid #C60;}#contenido #secundario h2{background:#DB905C;padding:.2em;}#pie{padding:.5em 0;margin-top:1em;border-top:1px solid #C5C5C5;border-bottom:1px solid #C5C5C5;background:#F8F8F8;}#contenido #principal .articulo{margin-bottom:1em;}#contenido #principal .articulo img{margin:.5em;}#lateral #noticias{border:1px solid #C5C5C5;background:#F8F8F8;}#lateral #publicidad{margin-top:1em;border:1px dashed #C60;background:#FFF6CD;}
+/*
+     FILE ARCHIVED ON 16:38:38 Apr 20, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:46:23 Nov 17, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 25.977
+  exclusion.robots: 0.037
+  exclusion.robots.policy: 0.014
+  esindex: 0.017
+  cdx.remote: 48.463
+  LoadShardBlock: 206.309 (3)
+  PetaboxLoader3.datanode: 185.027 (4)
+  PetaboxLoader3.resolve: 284.757 (2)
+  load_resource: 275.842
+*/

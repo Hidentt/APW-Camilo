@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+#contenedor {
+    width: 750px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px 25px;
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/* ===== LISTA DEL FORMULARIO ===== */
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+/* ===== TITULOS DE CAMPO ===== */
+label.titulo {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Requerido */
+.requerido {
+    color: red;
+}
+
+/* ===== CAMPOS ===== */
+form li div span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form select {
+    width: 230px;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+/* 2º y 3º apellido más cortos como en la imagen */
+#apellido1,
+#apellido2 {
+    width: 200px;
+}
+
+#codigopostal {
+    width: 150px;
+}
+
+#municipio {
+    width: 200px;
+}
+
+#provincia,
+#pais {
+    width: 170px;
+}
+
+/* ===== ETIQUETAS BAJO CAMPOS ===== */
+form li div span label {
+    display: block;
+    font-size: 11px;
+    color: #555;
+    margin-top: 3px;
+}
+
+/* ===== BLOQUE AMARILLO DE DIRECCIÓN ===== */
+/* Ocultar los mensajes de ayuda por defecto */
+p.ayuda {
+    display: none;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* Mostrar ayuda cuando el usuario pasa el ratón por encima del li */
+form li:hover p.ayuda {
+    display: block;
+
+/* ===== AYUDA ===== */
+p.ayuda {
+    font-size: 12px;
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+/* ===== BOTÓN ===== */
+#alta {
+    padding: 8px 18px;
+    background: #ddd;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    float: right;
+}
+
+#alta:hover {
+    background: #ccc;
+}
