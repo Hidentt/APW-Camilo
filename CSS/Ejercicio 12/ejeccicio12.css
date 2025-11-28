@@ -1,103 +1,81 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-}
-
 #contenedor {
-    width: 750px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    padding: 20px 25px;
+  width: 700px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
 }
 
 h2 {
-    margin-top: 0;
-    font-weight: normal;
+  margin-bottom: 20px;
 }
 
 form ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
 }
 
 form li {
-    margin-bottom: 25px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
 }
 
 label.titulo {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .requerido {
-    color: red;
+  color: red;
 }
 
 form li div span {
-    display: block;
-    margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 form input,
 form select {
-    width: 230px;
-    padding: 6px;
-    border: 1px solid #ccc;
-}
-
-#apellido1,
-#apellido2 {
-    width: 200px;
-}
-
-#codigopostal {
-    width: 150px;
-}
-
-#municipio {
-    width: 200px;
-}
-
-#provincia,
-#pais {
-    width: 170px;
+  width: 180px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  background: #fff;
 }
 
 form li div span label {
-    display: block;
-    font-size: 11px;
-    color: #555;
-    margin-top: 3px;
+  display: block;
+  font-size: 11px;
+  color: #555;
+  margin-top: 3px;
 }
 
-p .ayuda {
-    display: none;
-    margin-top: 5px;
-    font-size: 12px;
-    color: #666;
+form li:hover {
+  background: #fbff10;
 }
 
-form li:hover p.ayuda {
-    display: block;
+.ayuda {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 240px;
+  color: #333;
+  font-size: 13px;
+}
 
-p.ayuda {
-    font-size: 12px;
-    color: #666;
-    margin: 5px 0 0 0;
+form li:hover .ayuda {
+  display: block;
 }
 
 #alta {
-    padding: 8px 18px;
-    background: #ddd;
-    border: 1px solid #aaa;
-    cursor: pointer;
-    float: right;
+  padding: 8px 20px;
+  background: #eee;
+  border: 1px solid #999;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 #alta:hover {
-    background: #ccc;
+  background: #ddd;
 }
